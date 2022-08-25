@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("a");
+        System.out.println("2");
+        System.out.println("2");
             People[] people1 = {
                     new Asan("Adam", "Asan", "Asanov", "asan@mail.com", "osh", 19),
                     new Uson("A", "Uson", "Usonov", "uson@mail", "Bishkek", 20),
