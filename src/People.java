@@ -66,13 +66,11 @@ abstract public class People {
 
     @Override
     public String toString() {
-        return "People{" +
-                "id='" + id + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", city='" + city + '\'' +
-                ", age=" + age +
-                '}';
+        return  "ID= "+id + '\'' +
+                ",firstName= '" + firstName + '\'' +
+                ", lastName= '" + lastName + '\'' +
+                ", email= '" + email + '\'' +
+                ", city= '" + city + '\'' +
+                ", age= " + age ;
     }
 }
